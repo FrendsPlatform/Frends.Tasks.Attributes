@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
-    <metadata>
-        <id>Frends.Tasks.Attributes</id>
-        <version>1.2.0</version>
-        <title>FRENDS task attributes library</title>
-        <authors>HiQ Finland</authors>
-        <owners />
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Custom decorator attributes for FRENDS task parameters. Allows you to have e.g. conditional fields or tabbed inputs.</description>
-        <summary />
-
+<package 
+  xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Frends.Tasks.Attributes</id>
+    <version>1.2.1</version>
+    <title>FRENDS task attributes library</title>
+    <licenseUrl>https://raw.githubusercontent.com/FrendsPlatform/Frends.Tasks.Attributes/master/LICENSE</licenseUrl>
+    <authors>HiQ Finland</authors>
+    <owners />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Custom decorator attributes for FRENDS task parameters. Allows you to have e.g. conditional fields or tabbed inputs.</description>
+    <summary />
+    <projectUrl>https://github.com/FrendsPlatform/Frends.Tasks.Attributes</projectUrl>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" />
       <frameworkAssembly assemblyName="Microsoft.CSharp" />
     </frameworkAssemblies>
-    </metadata>
+  </metadata>
   <files>
     <file src="bin\release\Frends.Tasks.Attributes.dll" target="lib\net40\Frends.Tasks.Attributes.dll" />
   </files>

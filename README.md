@@ -1,3 +1,5 @@
+**Frends.Task.Attributes package has been deprecated, and all new task versions should use the new attributes from System.ComponentModel.DataAnnotations.**
+
 # Frends.Tasks.Attributes
 
 Custom decorator attributes for FRENDS task parameters. Allows you to have e.g. conditional fields or tabbed inputs.
